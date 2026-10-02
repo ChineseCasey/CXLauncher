@@ -1,0 +1,4 @@
+<Solution>
+  <Folder Name="/src/"><Project Path="src/CXLauncher/CXLauncher.csproj" /></Folder>
+  <Folder Name="/tests/"><Project Path="tests/CXLauncher.Tests/CXLauncher.Tests.csproj" /></Folder>
+</Solution>

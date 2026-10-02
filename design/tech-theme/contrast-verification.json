@@ -1,0 +1,72 @@
+[
+  {
+    "foreground": "TextBrush",
+    "background": "BackgroundBrush",
+    "minimumRatio": 17.21,
+    "required": 4.5,
+    "passed": true
+  },
+  {
+    "foreground": "TextBrush",
+    "background": "FrameSurfaceBrush",
+    "minimumRatio": 10.81,
+    "required": 4.5,
+    "passed": true
+  },
+  {
+    "foreground": "MutedBrush",
+    "background": "FrameSurfaceBrush",
+    "minimumRatio": 7.03,
+    "required": 4.5,
+    "passed": true
+  },
+  {
+    "foreground": "MutedBrush",
+    "background": "HoverBrush",
+    "minimumRatio": 6.72,
+    "required": 4.5,
+    "passed": true
+  },
+  {
+    "foreground": "OnAccentBrush",
+    "background": "PrimarySurfaceBrush",
+    "minimumRatio": 14.41,
+    "required": 4.5,
+    "passed": true
+  },
+  {
+    "foreground": "OnAccentBrush",
+    "background": "PrimaryHoverBrush",
+    "minimumRatio": 17.42,
+    "required": 4.5,
+    "passed": true
+  },
+  {
+    "foreground": "ErrorBrush",
+    "background": "FrameSurfaceBrush",
+    "minimumRatio": 7.3,
+    "required": 4.5,
+    "passed": true
+  },
+  {
+    "foreground": "ControlBorderBrush",
+    "background": "SurfaceBrush",
+    "minimumRatio": 3.58,
+    "required": 3,
+    "passed": true
+  },
+  {
+    "foreground": "TextBrush",
+    "background": "FrameSurfaceBrush + peak glass sheen",
+    "minimumRatio": 8.05,
+    "required": 4.5,
+    "passed": true
+  },
+  {
+    "foreground": "MutedBrush",
+    "background": "FrameSurfaceBrush + peak glass sheen",
+    "minimumRatio": 5.24,
+    "required": 4.5,
+    "passed": true
+  }
+]

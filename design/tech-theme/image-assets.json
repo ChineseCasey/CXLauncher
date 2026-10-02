@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-03",
+  "tool": "built-in image_gen",
+  "palette": [
+    "#79BCFF",
+    "#9D8DFF",
+    "silver",
+    "dark titanium"
+  ],
+  "assets": [
+    {
+      "name": "cx-emblem",
+      "source": "C:\\Users\\10367\\.codex\\generated_images\\01a0fcfa-f922-7273-ba8e-e15cf61c9c64\\exec-50eb34dc-c8b9-4dec-87e3-181b8058477a.png",
+      "prompt": "Use case: logo-brand\nAsset type: production application icon and brand mark for CX Launcher, a futuristic Windows game library.\nPrimary request: one premium sculpted chrome emblem: a clean open hexagonal portal shaped subtly like a C, with a compact diagonal X energy core in its center. This is a new icon, not a screenshot or UI mockup.\nStyle: precise industrial 3D icon, orthographic front view with very shallow depth, crisp broad beveled edges and a simple strong silhouette readable at 32 pixels. Brushed silver and dark titanium, restrained electric icy-blue #79BCFF edge illumination and a small violet #9D8DFF inner accent. Balanced and confident technology aesthetic.\nComposition: single centered emblem occupying about 76% of a square canvas, generous clear transparent margin; completely isolated on a genuinely transparent background.\nConstraints: no green, no teal, no cyan-green; no text, letters, slogans, numbers, watermark, surrounding plate, scene, particles, extra ornaments or long glow. Keep only the emblem with tight subtle highlights. Preserve true alpha transparency."
+    },
+    {
+      "name": "library",
+      "source": "C:\\Users\\10367\\.codex\\generated_images\\01a0fcfa-f922-7273-ba8e-e15cf61c9c64\\exec-1eef2135-da32-4ca8-96c4-b7c0f43ddd26.png",
+      "prompt": "Use case: stylized-concept\nAsset type: game library navigation and empty-state icon.\nPrimary request: a small futuristic archive vault, a three-dimensional stack of three beveled square storage tiles with a minimal controller-shaped cutout inset on the front tile. Three layers form one compact cohesive object, no detached objects.\nProduction UI icon for CX Launcher, a futuristic Windows game library. One isolated object, orthographic frontal view with very shallow 3D depth. Crisp broad beveled silver chrome edges, dark titanium faces, restrained icy-blue #79BCFF luminous insets and tiny violet #9D8DFF accents. Industrial precision, compact simple silhouette readable at 32 pixels. Single centered icon occupying about 76% of a square transparent canvas. True transparent background and clear margin. No green, teal or cyan-green. No text, letters, numbers, watermark, scene, background plate, particles or long glow."
+    },
+    {
+      "name": "recent",
+      "source": "C:\\Users\\10367\\.codex\\generated_images\\01a0fcfa-f922-7273-ba8e-e15cf61c9c64\\exec-685e3558-2808-418e-9438-393c7248d525.png",
+      "prompt": "Use case: stylized-concept\nAsset type: recent launches navigation icon.\nPrimary request: a single precision chronometer, a broad beveled circular chrome ring with a dark titanium face and two clear icy-blue clock hands indicating roughly ten past ten, with one compact violet index mark. Minimal, no dial numerals, no many tiny marks.\nProduction UI icon for CX Launcher, a futuristic Windows game library. One isolated object, orthographic frontal view with very shallow 3D depth. Crisp broad beveled silver chrome edges, dark titanium faces, restrained icy-blue #79BCFF luminous insets and tiny violet #9D8DFF accents. Industrial precision, compact simple silhouette readable at 32 pixels. Single centered icon occupying about 76% of a square transparent canvas. True transparent background and clear margin. No green, teal or cyan-green. No text, letters, numbers, watermark, scene, background plate, particles or long glow."
+    },
+    {
+      "name": "favorite",
+      "source": "C:\\Users\\10367\\.codex\\generated_images\\01a0fcfa-f922-7273-ba8e-e15cf61c9c64\\exec-40cdca3f-665c-4a25-b7dc-3a1982edc7ac.png",
+      "prompt": "Use case: stylized-concept\nAsset type: favorites navigation icon.\nPrimary request: a single symmetrical five-point star badge sculpted from silver chrome with broad beveled edges and a dark titanium inset. A restrained icy-blue light strip follows the inner star outline, with one subtle violet highlight on the lower edge. A crisp familiar star silhouette.\nProduction UI icon for CX Launcher, a futuristic Windows game library. One isolated object, orthographic frontal view with very shallow 3D depth. Crisp broad beveled silver chrome edges, dark titanium faces, restrained icy-blue #79BCFF luminous insets and tiny violet #9D8DFF accents. Industrial precision, compact simple silhouette readable at 32 pixels. Single centered icon occupying about 76% of a square transparent canvas. True transparent background and clear margin. No green, teal or cyan-green. No text, letters, numbers, watermark, scene, background plate, particles or long glow."
+    }
+  ]
+}

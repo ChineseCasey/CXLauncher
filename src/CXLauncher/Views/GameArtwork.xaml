@@ -1,0 +1,17 @@
+<UserControl x:Class="CXLauncher.Views.GameArtwork" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:views="clr-namespace:CXLauncher.Views" Loaded="OnLoaded" Unloaded="OnUnloaded" DataContextChanged="OnContextChanged" Focusable="False">
+  <Grid Background="{StaticResource ArtworkBrush}" ClipToBounds="True">
+    <Grid>
+      <Ellipse Stroke="#20FFFFFF" StrokeThickness="1" Width="130" Height="130" Margin="0,-25,-65,0" HorizontalAlignment="Right" VerticalAlignment="Top" IsHitTestVisible="False" />
+      <Ellipse Fill="{StaticResource SoftSilverBrush}" Width="200" Height="170" Margin="-100,0,0,-90" HorizontalAlignment="Left" VerticalAlignment="Bottom" IsHitTestVisible="False" />
+      <views:DecorativeImage x:Name="PlaceholderGlyph" Source="{StaticResource LibraryIcon}" Width="54" Height="54" HorizontalAlignment="Center" VerticalAlignment="Center" Opacity="0.85" IsHitTestVisible="False" />
+      <TextBlock x:Name="PlaceholderLabel" Text="我的游戏收藏" Foreground="{StaticResource MutedBrush}" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,15" />
+    </Grid>
+    <Image x:Name="CoverImage" Source="{Binding Image, NotifyOnTargetUpdated=True}" TargetUpdated="OnCoverUpdated" Stretch="UniformToFill">
+      <Image.Style><Style TargetType="Image"><Setter Property="Visibility" Value="Collapsed" /><Style.Triggers><DataTrigger Binding="{Binding HasCover}" Value="True"><Setter Property="Visibility" Value="Visible" /></DataTrigger></Style.Triggers></Style></Image.Style>
+    </Image>
+    <Border Background="{StaticResource SurfaceBrush}" Width="76" Height="76" CornerRadius="18" HorizontalAlignment="Center" VerticalAlignment="Center">
+      <Border.Style><Style TargetType="Border"><Style.Triggers><DataTrigger Binding="{Binding HasCover}" Value="True"><Setter Property="Visibility" Value="Collapsed" /></DataTrigger><DataTrigger Binding="{Binding Image}" Value="{x:Null}"><Setter Property="Visibility" Value="Collapsed" /></DataTrigger></Style.Triggers></Style></Border.Style>
+      <Image Source="{Binding Image}" Width="48" Height="48" Stretch="Uniform" />
+    </Border>
+  </Grid>
+</UserControl>

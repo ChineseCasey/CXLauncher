@@ -1,0 +1,70 @@
+[
+  {
+    "name": "cx-emblem",
+    "master": "C:\\cxluncher\\design\\tech-theme\\generated\\cx-emblem-v1.png",
+    "masterSize": [
+      1254,
+      1254
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "runtimeSize": [
+      256,
+      256
+    ],
+    "runtimeBytes": 69693
+  },
+  {
+    "name": "library",
+    "master": "C:\\cxluncher\\design\\tech-theme\\generated\\library-v1.png",
+    "masterSize": [
+      1254,
+      1254
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "runtimeSize": [
+      256,
+      256
+    ],
+    "runtimeBytes": 59661
+  },
+  {
+    "name": "recent",
+    "master": "C:\\cxluncher\\design\\tech-theme\\generated\\recent-v1.png",
+    "masterSize": [
+      1254,
+      1254
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "runtimeSize": [
+      256,
+      256
+    ],
+    "runtimeBytes": 79836
+  },
+  {
+    "name": "favorite",
+    "master": "C:\\cxluncher\\design\\tech-theme\\generated\\favorite-v1.png",
+    "masterSize": [
+      1254,
+      1254
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "runtimeSize": [
+      256,
+      256
+    ],
+    "runtimeBytes": 63011
+  }
+]

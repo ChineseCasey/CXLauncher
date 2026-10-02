@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CX Launcher · Graphite · 科技未来</title>
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="liquid.css">
+  <script defer src="vendor/gsap.min.js"></script>
+  <script defer src="flow.js"></script>
+  <script defer src="liquid.js"></script>
+  <script defer src="preview.js"></script>
+</head>
+<body>
+  <header class="preview-heading">
+    <div><p class="eyebrow">CX LAUNCHER / GRAPHITE · 0.6.0</p><h1>让热爱，回到视线中心。</h1><p class="intro">石墨、银白，一点冷光。安静的界面，流动的质感。</p></div>
+    <div class="preview-controls">
+      <button id="replay" class="control">↻ 重新播放</button>
+      <button id="demo" class="control">▷ 自动演示</button>
+      <label class="speed-label">速度<select id="speed"><option value="1">正常</option><option value="2.5">慢放</option></select></label>
+      <label class="reduce-label"><input id="reduce" type="checkbox"> 减少动画</label>
+    </div>
+  </header>
+  <div class="app-window" id="app">
+    <div class="titlebar"><span><img class="tiny-brand" src="assets/cx-emblem.svg" alt=""> CX Launcher</span><span aria-hidden="true">─　□　×</span></div>
+    <div class="liquid-fallback" aria-hidden="true"></div><canvas id="liquid-canvas" aria-hidden="true"></canvas>
+    <div class="app-content">
+      <aside class="sidebar">
+        <div class="brand"><img class="brand-mark" src="assets/cx-emblem.svg" alt=""><span><strong>CX Launcher</strong><small>YOUR PLAYLIST</small></span></div>
+        <p class="nav-label">我的空间</p>
+        <nav aria-label="游戏库导航">
+          <button class="nav selected" data-nav="all" aria-current="page"><img class="nav-icon" src="assets/library.svg" alt="">游戏库<span class="count">6</span></button>
+          <button class="nav" data-nav="recent"><img class="nav-icon" src="assets/recent.svg" alt="">最近启动</button>
+          <button class="nav" data-nav="favorite"><img class="nav-icon" src="assets/favorite.svg" alt="">我的收藏<span class="count" id="favorites-count">2</span></button>
+        </nav>
+        <p class="nav-label category-label">按分类查看</p>
+        <select id="category" aria-label="分类筛选"><option value="all">全部分类</option><option>冒险</option><option>探索</option><option>角色扮演</option></select>
+        <div class="sidebar-foot"><span class="local-dot"></span> LOCAL / OFFLINE</div>
+      </aside>
+      <main class="main">
+        <header class="page-header"><span class="flow-line" aria-hidden="true"><i></i></span><div><span class="page-kicker">你的专属空间</span><h2 id="page-title">游戏库</h2><p id="page-subtitle">把喜欢的世界，放在一起。</p></div><div class="header-stats"><div class="stat-tile"><strong>6</strong><small>全部游戏</small></div><div class="stat-tile"><strong id="stat-favorites">2</strong><small>我的收藏</small></div></div></header>
+        <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" placeholder="搜索游戏…" aria-label="搜索游戏名称"></label><select id="sort" aria-label="游戏排序"><option value="name">名称 A–Z</option><option value="recent">最近启动</option></select><button id="view">列表</button><button class="primary" id="add">＋ 添加游戏</button></div>
+        <div class="results-caption"><span id="result-count">6 个游戏</span><span>拖入 .exe / .lnk 即可添加</span></div>
+        <div class="library-area" id="library-area">
+          <section class="results" id="results" aria-label="游戏列表"></section>
+          <aside class="drawer" id="drawer" aria-label="游戏详情" hidden>
+            <div class="drawer-top"><span>游戏详情</span><button class="icon" id="close-detail" aria-label="关闭游戏详情">×</button></div>
+            <div class="drawer-hero" id="drawer-hero"></div>
+            <div class="drawer-body"><h3 id="detail-name"></h3><p class="detail-category" id="detail-category"></p><button class="primary full" id="detail-launch">启动游戏</button><p class="availability">本地游戏 · 路径可用</p><label class="field-label">游戏路径</label><div class="path" id="detail-path"></div><p class="field-label">最近启动</p><p class="field-value">今天 20:36</p><button class="full" id="detail-favorite">加入收藏</button></div>
+          </aside>
+        </div>
+        <div class="notice" id="notice" role="status" aria-live="polite">一切就绪。挑一个喜欢的世界，出发吧。</div>
+      </main>
+    </div>
+  </div>
+  <footer class="preview-foot"><span><i></i> 本地交互预览 · 示例游戏库</span><span>移动鼠标，感受光影的流动</span></footer>
+</body>
+</html>
+
